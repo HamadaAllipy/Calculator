@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colornormal</item>
+        <item name="colorPrimaryDark">#616161</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">#263238</item>
+
+    </style>
+    <style name="font_custom_is_yellow"
+        >
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/colorShift</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="font_custom_is_red"
+        >
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/colorAlpha</item>
+    </style>
+
+</resources>
